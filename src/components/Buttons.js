@@ -1,6 +1,5 @@
 import styled from "styled-components";
-import { defaultTheme } from "../utils";
-import { typeScale } from "../utils";
+import { defaultTheme, typeScale } from "../utils";
 
 const Button = styled.button`
 cursor: pointer;
