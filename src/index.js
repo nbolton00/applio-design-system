@@ -4,13 +4,14 @@ import PrimaryButton, {
     SecondaryButton,
     TertiaryButton
 } from "./components/Buttons";
-
+import { GlobalStyle } from "./utils";
 
 const App = () => (
     <div>
-        <PrimaryButton>Primary</PrimaryButton>
-        <SecondaryButton>Secondary</SecondaryButton>
-        <TertiaryButton>Tertiary</TertiaryButton>
+        <PrimaryButton disabled>Primary</PrimaryButton>
+        <SecondaryButton disabled>Secondary</SecondaryButton>
+        <TertiaryButton disabled>Tertiary</TertiaryButton>
+        <GlobalStyle />
     </div>
 );
 
