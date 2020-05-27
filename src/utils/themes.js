@@ -8,6 +8,8 @@ export const defaultTheme = {
   textColorOnPrimary: getShade(neutral, 100),
   textColor: getShade(neutral, 600),
   textColorInverted: getShade(neutral, 100),
+  formElementBackground: getShade(neutral, 100),
+  textOnFormElementBackground: getShade(neutral, 600),
   primaryFont,
   disabled: getShade(neutral, 500),
   status: {
@@ -30,6 +32,8 @@ export const darkTheme = {
   textColorOnPrimary: getShade(neutral, 600),
   textColor: getShade(aqua, 400),
   textColorInverted: getShade(neutral, 100),
+  formElementBackground: getShade(neutral, 600),
+  textOnFormElementBackground: getShade(neutral, 100),
   primaryFont,
   disabled: getShade(neutral, 500),
   status: {
