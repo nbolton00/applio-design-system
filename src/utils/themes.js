@@ -12,6 +12,8 @@ export const defaultTheme = {
   textOnFormElementBackground: getShade(neutral, 600),
   primaryFont,
   disabled: getShade(neutral, 500),
+  textFieldBackground: neutral[200],
+  textFieldLabelColor: neutral[600],
   status: {
     warningColor: getShade(yellow),
     warningColorHover: getShade(yellow, 500),
@@ -36,6 +38,8 @@ export const darkTheme = {
   textOnFormElementBackground: getShade(neutral, 100),
   primaryFont,
   disabled: getShade(neutral, 500),
+  textFieldBackground: neutral[200],
+  textFieldLabelColor: neutral[100],
   status: {
     warningColor: getShade(yellow),
     warningColorHover: getShade(yellow, 500),
